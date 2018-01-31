@@ -76,3 +76,9 @@ npm WARN webpack-dev-server@2.11.1 requires a peer of webpack@^2.2.0 || ^3.0.0 b
 ```
 
 
+### git 提交问题
+* 在terminal中使用 `git push --set-upstream webpack-project master`进行提交
+
+* 修改gitignore后执行 `git rm -r --cached .` 来清楚缓存
+
+
