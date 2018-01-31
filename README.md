@@ -77,6 +77,18 @@ npm WARN webpack-dev-server@2.11.1 requires a peer of webpack@^2.2.0 || ^3.0.0 b
 
 
 ### git 提交问题
+
+* 在sourceTree提交代码提示以下错误 
+
+```
+Pushing to https://github.com/emptywalker/webpack-project
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/emptywalker/webpack-project/'
+```
+**解决办法**
+
+
+
 * 在terminal中使用 `git push --set-upstream webpack-project master`进行提交
 
 * 修改gitignore后执行 `git rm -r --cached .` 来清楚缓存
